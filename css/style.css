@@ -1,0 +1,139 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-size: 1535px;
+}
+
+.erreurSurvenu, .reset-pwd {
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.titre {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 350px;
+    padding: 15px;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, .8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    border-radius: 15px;
+}
+
+.login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 13px;
+    color: #fff;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    background: transparent;
+}
+
+.login-box h2, .userName {
+    margin: 0 0 30px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Trebuchet MS';
+}
+
+.buttons input {
+    position: static;
+    padding: 1mm 1ch;
+    color: #03e9f4;
+    font-size: 13px;
+    transition: .2s;
+    margin-top: 1ch;
+    letter-spacing: 2px;
+    background: transparent;
+    border: none;
+}   
+
+.buttons input:hover {
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4;
+    cursor: pointer;                
+}
+
+.cadre {
+    position: absolute;
+    top: 30ch;
+    left: 65ch;
+    border: 2px solid;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color:white;
+}
+
+.disconnect-button {
+    position: absolute;
+    left: 95%;
+    top: 1ch;
+    cursor: pointer;
+    border-radius: 200px;
+    width: 45px;
+}
+
+.disconnect-button:hover {
+    transform: scale(1.1) ;
+}
+
+.sendmail {
+    color: green;
+    text-align: justify;
+    margin-top: 0ch;
+}
+
+.error-message {
+    color: red;
+    text-align: justify;
+    font-size: 15px;
+    margin-top: 0ch;
+}
+
+.passwordChanged {
+    position: absolute;
+    left: 80ch;
+    padding-top: 1ch;
+    padding-bottom: 1ch;
+    padding-left: 1ch;
+    padding-right: 1ch;
+    font-size: medium;
+    border: 2px solid; 
+    background-color: white; 
+}
+
+tr {
+    background-color: #fff;
+    width: 5ch;
+}
+
+table {
+    width: 30%;
+    text-align: center;
+    margin: 100px auto;
+    border: 2px solid blue;
+}
+
+td, tr {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    color: blue;
+}
